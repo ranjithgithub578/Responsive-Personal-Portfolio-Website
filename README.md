@@ -37,5 +37,3 @@ This site showcases my skills, projects, and achievements as a Computer Science 
 - **Phone:** +91 8367649954  
 - **LinkedIn:** [linkedin.com/in/pitlaranjithkumar](https://www.linkedin.com/in/pitlaranjithkumar/)  
 - **GitHub:** [github.com/ranjithgithub578](https://github.com/ranjithgithub578)
-
----
