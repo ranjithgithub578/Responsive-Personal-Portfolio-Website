@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pitla Ranjith Kumar — Portfolio</title>
+  <meta name="description" content="Portfolio of Pitla Ranjith Kumar — MCA (Data Science), Python, ML, Web Dev." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#home">PRK</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode"></button>
+      <button class="menu-toggle" aria-label="Toggle menu"></button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container fade-in">
+  <!-- Left column -->
+  <div class="hero-text">
+    <h1><span class="accent">Pitla</span> Ranjith Kumar</h1>
+    <p class="tagline">Computer Science graduate crafting data-driven solutions and clean web experiences.</p>
+    <p class="location">Hyderabad, Telangana, India</p>
+    <div class="cta-group">
+      <a class="btn primary" href="RANJITH_FRONT_END_DEVELOPER_RESUME.pdf" target="_blank" rel="noopener">Frontend Developer Resume</a>
+      <a class="btn secondary" href="RESUME_TRAINEE.pdf" target="_blank" rel="noopener">Trainee Resume</a>
+      <a class="btn secondary" href="#projects">See Projects</a>
+    </div>
+    <div class="links">
+      <a href="mailto:pitlaranjith761@gmail.com">Email</a>
+      <a href="tel:+918367649954">Phone</a>
+      <a href="https://www.linkedin.com/in/pitlaranjithkumar/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/ranjithgithub578" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+
+  <!-- Right column -->
+  <div class="hero-image">
+    <div class="image-ring">
+      <img src="Proff_photo.png" alt="Portrait of Pitla Ranjith Kumar" />
+    </div>
+  </div>
+</section>
+
+
+    <section id="skills" class="container section fade-in">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Web & DBMS</h3>
+          <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Tools & Libraries</h3>
+          <div class="chips">
+            <span class="chip">Pandas</span>
+            <span class="chip">NumPy</span>
+            <span class="chip">Scikit-learn</span>
+            <span class="chip">Matplotlib</span>
+            <span class="chip">Seaborn</span>
+            <span class="chip">Excel</span>
+            <span class="chip">RapidMiner</span>
+            <span class="chip">Jupyter</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Data Science & ML</h3>
+          <div class="chips">
+            <span class="chip">Data Cleaning</span>
+            <span class="chip">EDA</span>
+            <span class="chip">Classification</span>
+            <span class="chip">Regression</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Soft skills</h3>
+          <div class="chips">
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Decision-making</span>
+            <span class="chip">Adaptability</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section fade-in">
+  <h2>Projects</h2>
+
+  <!-- Project 1: Personal Portfolio -->
+  <article class="project-card">
+    <div class="project-header">
+      <h3>Responsive Personal Portfolio Website</h3>
+      <span class="pill">Jan 2026</span>
+    </div>
+    <p class="project-summary">
+      Designed and developed a responsive personal portfolio website to showcase projects, skills, and certifications with modern UI features.
+    </p>
+    <ul class="project-points">
+      <li><strong>Features:</strong> Dark mode toggle with persistent user preference using JavaScript and localStorage.</li>
+      <li><strong>UX:</strong> Smooth animations and scroll-triggered transitions for an engaging experience.</li>
+      <li><strong>Content:</strong> Structured sections for career objective, skills, projects, education, and contact information.</li>
+    </ul>
+    <div class="stack">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span>
+    </div>
+  </article>
+
+  <!-- Project 2: Movie Recommendation -->
+  <article class="project-card">
+    <div class="project-header">
+      <h3>Movie Recommendation System</h3>
+      <span class="pill">Dec 2025</span>
+    </div>
+    <p class="project-summary">
+      Built a hybrid recommendation system combining content-based filtering (TF-IDF on metadata) with collaborative filtering (KNN on user ratings).
+    </p>
+    <ul class="project-points">
+      <li><strong>Content:</strong> Genres, actors, and director metadata to compute movie similarities.</li>
+      <li><strong>Collaborative:</strong> Neighborhood-based recommendations from user preferences.</li>
+      <li><strong>Delivery:</strong> Streamlit app with interactive visualizations for exploration.</li>
+    </ul>
+    <div class="stack">
+      <span>Python</span><span>Scikit-learn</span><span>Streamlit</span><span>Data Visualization</span>
+    </div>
+  </article>
+
+  <!-- Project 3: Backorder Prediction -->
+  <article class="project-card">
+    <div class="project-header">
+      <h3>Backorder Prediction Using Machine Learning</h3>
+      <span class="pill">May 2025</span>
+    </div>
+    <p class="project-summary">
+      Developed a predictive model to identify products at risk of going on backorder by analyzing inventory, demand, and supply chain signals.
+    </p>
+    <ul class="project-points">
+      <li><strong>Focus:</strong> Preprocessing, class imbalance handling, model optimization.</li>
+      <li><strong>Outcomes:</strong> Improved precision and F1-score through feature engineering and resampling.</li>
+      <li><strong>Data:</strong> Historical inventory and demand data with supply chain features.</li>
+    </ul>
+    <div class="stack">
+      <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>Predictive Analytics</span>
+    </div>
+  </article>
+
+  <!-- Project 4: Car Rental -->
+  <article class="project-card">
+    <div class="project-header">
+      <h3>Car Rental and Services System</h3>
+      <span class="pill">Aug 2024</span>
+    </div>
+    <p class="project-summary">
+      Responsive web app enabling car reservations with availability checks, bookings, and service details through a clean landing experience.
+    </p>
+    <ul class="project-points">
+      <li><strong>Core:</strong> Car listing, booking UI, and service pages.</li>
+      <li><strong>UX:</strong> Intuitive navigation and mobile-first design.</li>
+    </ul>
+    <div class="stack">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span>
+    </div>
+  </article>
+</section>
+
+
+    <section id="education" class="container section fade-in">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Lovely Professional University</h3>
+            <p><strong>MCA (Data Science)</strong> — CGPA: 7.0</p>
+            <p class="meta">Aug 2023 – Jul 2025 • Punjab, India</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Malla Reddy University</h3>
+            <p><strong>B.Sc. Computer Science</strong> — Percentage: 89%</p>
+            <p class="meta">Nov 2020 – May 2023 • Kompally, Hyderabad</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Sri Aryabhatta Junior College</h3>
+            <p><strong>Intermediate</strong> — Percentage: 94%</p>
+            <p class="meta">Jun 2018 – May 2020 • Kamareddy, Telangana</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Vignan High School</h3>
+            <p><strong>Matriculation</strong> — CGPA: 9.2</p>
+            <p class="meta">Jun 2017 – Mar 2018 • Kamareddy, Telangana</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="container section fade-in">
+      <h2>Certifications & Achievements</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <h3>Web Development | Generative AI</h3>
+          <p>Coding Ninjas • Oct 2025 – Nov 2025</p>
+        </div>
+        <div class="cert-card">
+          <h3>Data Analysis with Python</h3>
+          <p>Cognitive.ai • Aug 2024 – Sep 2024</p>
+        </div>
+        <div class="cert-card">
+          <h3>Introduction to IoT</h3>
+          <p>MindLuster • Mar 2023 – Apr 2023</p>
+        </div>
+      </div>
+      <div class="achievement">
+        <p><strong>Achievement:</strong> Secured 2nd Rank in B.Sc. Computer Science at Malla Reddy University (2022).</p>
+      </div>
+    </section>
+
+    <section id="contact" class="container section fade-in">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Let’s build</h3>
+          <p>I’m open to Graduate Trainee roles where I can contribute to real projects and grow with the team.</p>
+          <div class="contact-links">
+            <a class="btn outline" href="mailto:pitlaranjith761@gmail.com">pitlaranjith761@gmail.com</a>
+            <a class="btn outline" href="tel:+918367649954">+91 8367649954</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Elsewhere</h3>
+          <ul class="social">
+            <li><a href="https://www.linkedin.com/in/pitlaranjithkumar/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/ranjithgithub578" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Pitla Ranjith Kumar • Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
